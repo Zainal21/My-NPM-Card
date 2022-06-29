@@ -4,7 +4,7 @@ const boxen = require("boxen");
 const chalk = require("chalk");
 
 const data = {
-  name: chalk.bold.cyan("                  Muhamad Zainal Arifin"),
+  name: chalk.bold.cyan("                  Muhamad Zainal Arifin😃"),
   handle: chalk.white("@penulisduduk"),
   school: `${chalk.white("Undergraduate at")} ${chalk
     .hex("#800000")
