@@ -4,14 +4,12 @@ const boxen = require("boxen");
 const chalk = require("chalk");
 
 const data = {
-  name: chalk.bold.cyan("                  Muhamad Zainal Arifin😃"),
+  name: chalk.bold.cyan("           Hi, I'm Muhamad Zainal Arifin😃"),
   handle: chalk.white("@penulisduduk"),
-  school: `${chalk.white("Undergraduate at")} ${chalk
+  school: `${chalk.white("graduated from")} ${chalk
     .hex("#800000")
-    .bold("SMKN2KRA")}`,
-  work: `${chalk.white("Sofware Enginer at")} ${chalk
-    .hex("#800000")
-    .bold("CV. Cikajogja")}`,
+    .bold("SMKN 2 Karanganyar")}`,
+  work: `${chalk.white("Sofware Engineer")} ${chalk.hex("#800000").bold("")}`,
   github:
     chalk.white("https://github.com/") + chalk.hex("#800000").bold("Zainal21"),
   linkedin:
@@ -23,7 +21,8 @@ const data = {
   web: chalk.cyan.bold("https://muhamadzain-dev.vercel.app/"),
   npx: chalk.red("npx") + " " + chalk.white("Zainal21"),
 
-  labelWork: chalk.white.bold("      Title:"),
+  labelSchool: chalk.white.bold("     School:"),
+  labelWork: chalk.white.bold("       Work:"),
   labelGitHub: chalk.white.bold("     GitHub:"),
   labelLinkedIn: chalk.white.bold("   LinkedIn:"),
   labelInstagram: chalk.white.bold("  Instagram:"),
@@ -34,7 +33,7 @@ const data = {
 const me = boxen(
   [
     `${data.name}`,
-    `${data.labelWork}  ${data.school}`,
+    `${data.labelSchool}  ${data.school}`,
     `${data.labelWork}  ${data.work}`,
     `${data.labelGitHub}  ${data.github}`,
     `${data.labelLinkedIn}  ${data.linkedin}`,
